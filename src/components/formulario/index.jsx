@@ -42,7 +42,7 @@ import styles from './Formulario.module.css'
             <form >
                 <div className={styles.formCadastro}>
                         <input type="number" onChange={(evento) => setPeso(evento.target.value)} placeholder='Informe seu peso'/>
-                        <input type="number" onChange={(evento) => setAltura(evento.target.value)} placeholder='Informe sua altura'/>
+                        <input type="number" onChange={(evento) => setAltura(evento.target.value)} placeholder='Informe sua altura, ex: 1.65'/>
                     <button >Limpar</button>
                 </div>
                 
