@@ -13,24 +13,37 @@ import styles from './Formulario.module.css'
             if (peso > 0 && altura > 0) {
             
                 if ( imc < 18.5) {
-                    return (
-                        <p>{imc} Seu indici de classificação é MAGREZA e graude de obsidade é 0</p> 
+                    return (<>
+                        <h2>{imc}</h2>
+                        <p> Seu indici de classificação é MAGREZA e graude de obsidade é 0</p> </>
                     ); 
                 } else if (18.5 <= imc && imc < 25) {
                     return ( 
-                        <p>{imc} Seu indici de classificação é NORMAL e graude de obsidade é 0</p> 
+                        <>
+                        <h2>{imc}</h2>
+                        <p> Seu indici de classificação é NORMAL e graude de obsidade é 0</p> 
+                        </>
                     ); 
                 } else if (25 <= imc && imc  < 30) {
                     return ( 
-                        <p>{imc} Seu indici de classificação é SOBREPESO e graude de obsidade é I</p> 
+                        <>
+                        <h2>{imc}</h2>
+                        <p> Seu indici de classificação é SOBREPESO e graude de obsidade é I</p> 
+                        </>
                     ); 
                 } else if (30 <= imc && imc  < 40) {
                     return ( 
-                        <p>{imc} Seu indici de classificação é OBESIDADE e graude de obsidade é II</p> 
+                        <>
+                        <h2>{imc}</h2>
+                        <p> Seu indici de classificação é OBESIDADE e graude de obsidade é II</p> 
+                        </>
                     ); 
                 } else if (imc >= 40) {
                     return ( 
-                        <p>{imc} Seu indici de classificação é OBESIDADE GRAVE e graude de obsidade é III</p> 
+                        <>
+                        <h2>{imc}</h2>
+                        <p> Seu indici de classificação é OBESIDADE GRAVE e graude de obsidade é III</p> 
+                        </>
                     ); 
                 }
             }
