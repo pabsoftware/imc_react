@@ -1,0 +1,11 @@
+
+.header {
+    background-color: var(--corPrincipal);
+    color: var(--corTitulo);
+    padding: 60px 0 40px;
+
+}
+
+.titulo {
+    text-align: center;
+}

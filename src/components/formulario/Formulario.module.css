@@ -1,0 +1,24 @@
+
+
+.formCadastro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    input {
+        margin-right: 8px;
+        padding: 4px;
+        border-radius: 5px;
+    }
+}
+
+.resultadoIMC {
+    padding: 16px;
+    border: 1px solid silver;
+    margin-top: 16px;
+    border-radius: 5px;
+    color: var(--corTitulo);
+
+    p{
+        font-size: 12px;
+    }
+}
