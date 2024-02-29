@@ -61,7 +61,7 @@ import styles from './Formulario.module.css'
                 
             </form>
             <div className={styles.resultadoIMC}>
-                <h2>Seu resultado: <hr /> {calculaIMC()}</h2>
+                <h2>Seu resultado:  {calculaIMC()}</h2>
             </div>
             
         </div>

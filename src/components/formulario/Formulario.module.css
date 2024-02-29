@@ -3,6 +3,9 @@
 .formCadastro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid var(--corTitulo);
+    padding: 16px;
+    border-radius: 5px;
 
     input {
         margin-right: 8px;
@@ -14,7 +17,7 @@
 .resultadoIMC {
     padding: 16px;
     border: 1px solid silver;
-    margin-top: 16px;
+    margin-top: 4px;
     border-radius: 5px;
     color: var(--corTitulo);
 
