@@ -41,8 +41,8 @@ import styles from './Formulario.module.css'
         <div className="container">
             <form >
                 <div className={styles.formCadastro}>
-                        <input type="number" onChange={(evento) => setPeso(evento.target.value)}/>
-                        <input type="number" onChange={(evento) => setAltura(evento.target.value)}/>
+                        <input type="number" onChange={(evento) => setPeso(evento.target.value)} placeholder='Informe seu peso'/>
+                        <input type="number" onChange={(evento) => setAltura(evento.target.value)} placeholder='Informe sua altura'/>
                     <button >Limpar</button>
                 </div>
                 
